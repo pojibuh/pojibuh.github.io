@@ -58,8 +58,12 @@
 
 	.images {
 		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
+		flex-direction: row;
+		align-items: space-around;
+	}
+
+	.image-row-one, .image-row-two {
+		height: 130px;
 	}
 
 	.image-row-one div, .image-row-two div {
