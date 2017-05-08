@@ -63,6 +63,12 @@
 		align-items: center;
 	}
 
+	.schools {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
 	.image-row-one, .image-row-two {
 		display: flex;
     flex-direction: row;
