@@ -76,7 +76,7 @@
 		height: 120px;
 	}
 
-	.images img {
+	.images img , .schools img {
 		width: 100px;
 		height: 100px;
 	}
