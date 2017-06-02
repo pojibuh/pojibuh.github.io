@@ -83,6 +83,25 @@
     width: 1000px;
 	}
 
+	.fullstack, .intensive {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.fullstack {
+		margin-bottom: 5%;
+	}
+
+	.js-project {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 5%;
+	}
+
+	.desc-details {
+		width: 75%;
+	}
+
 	.image-row-one div, .image-row-two div {
 		width: 120px;
 		height: 120px;
@@ -99,14 +118,21 @@
 	}
 
 	.project-images {
-		width: 80%;
-		height: 60%;
+		width: 50%;
+		height: 50%;
 	}
 
 	.logo img{
 		border-radius: 100%;
 		width: 300px;
 		height: 300px;
+	}
+
+	.description {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.showcase {
