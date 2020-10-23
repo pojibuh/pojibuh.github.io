@@ -331,6 +331,94 @@ input, select, textarea {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
 	}
 
+/* Custon Stuff */
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.images {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.schools {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.image-row-one, .image-row-two {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	justify-content: space-around;
+	width: 1000px;
+}
+
+.fullstack, .intensive {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.fullstack {
+	margin-bottom: 5%;
+}
+
+.js-project {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5%;
+}
+
+.desc-details {
+	width: 75%;
+}
+
+.image-row-one div, .image-row-two div {
+	width: 120px;
+	height: 120px;
+}
+
+.images img {
+	width: 100px;
+	height: 100px;
+}
+
+.schools img {
+	width: 250px;
+	height: 250px;
+}
+
+.project-images {
+	width: 50%;
+	height: 50%;
+}
+
+.logo img{
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.showcase {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
 /* Row */
 
 	.row {
