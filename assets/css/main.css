@@ -2437,6 +2437,16 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
+		transition: all 0.2s ease-in-out;
+	  border-radius: 100%;
+	  display: inline-block;
+	  height: 2em;
+	  left: 0;
+	  line-height: 2em;
+	  text-align: center;
+	  text-decoration: none;
+	  top: 0;
+	  width: 2em;
 		color: #ffffff;
 	}
 
