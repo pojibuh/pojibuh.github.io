@@ -2364,28 +2364,27 @@ input, select, textarea {
 			}
 
 		.icon.alt {
-			border: 1px solid;
-			border-color: rgba(255, 255, 255, 0.35);
+			border: 1px solid rgba(255, 255, 255, 0.35);
 			border-radius: 100%;
 			color: #ffffff;
 			display: inline-block;
-			height: 2.5em;
+			height: 3.5em;
 			left: 0;
 			line-height: 2em;
 			text-align: center;
 			text-decoration: none;
 			top: 0;
 			transition: all 0.2s ease-in-out;
-			width: 2.5em;
+			width: 3.5em;
 		}
 
 			.icon.alt:before {
 				display: block;
-				font-size: 1.25em;
-				height: 2em;
-				line-height: 2em;
+				font-size: 30px;
+				height: 2.5em;
+				line-height: 2.25em;
 				text-align: center;
-				width: 2em;
+				width: 2.1em;
 			}
 
 			.icon.alt:hover {
